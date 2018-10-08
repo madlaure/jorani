@@ -47,9 +47,9 @@ echo form_open('leaves/create', $attributes) ?>
 
     <label for="duration"><?php echo lang('leaves_create_field_duration');?> <span id="tooltipDayOff"></span></label>
     <?php if ($this->config->item('disable_edit_leave_duration') == TRUE) { ?>
-    <input type="text" name="duration" id="duration" value="<?php echo set_value('duration'); ?>" readonly />
+    <input type="number" name="duration" id="duration" value="<?php echo set_value('duration'); ?>" readonly />
     <?php } else { ?>
-    <input type="text" name="duration" id="duration" value="<?php echo set_value('duration'); ?>" />
+    <input type="number" name="duration" id="duration" min="0.1" step="any" value="<?php echo set_value('duration'); ?>" required />
     <?php } ?>
 
     <span style="margin-left: 2px;position: relative;top: -5px;" id="spnDayType"></span>
