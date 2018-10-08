@@ -11,7 +11,7 @@ $lang['calendar_year_title'] = 'Calendrier annuel';
 $lang['calendar_year_button_export'] = 'Exporter';
 
 $lang['calendar_individual_title'] = 'Mon calendrier';
-$lang['calendar_individual_description'] = 'Calendrier de mes absences.';
+$lang['calendar_individual_description'] = 'Calendrier de mes absences';
 $lang['calendar_individual_popup_event_link_ical'] = 'Télécharger le fichier iCal';
 $lang['calendar_individual_popup_event_link_ical_description'] = '(pour importer l\'absence dans Outlook, Thunderbird, etc.)';
 $lang['calendar_individual_popup_event_title'] = 'Détails de l\'événement';
